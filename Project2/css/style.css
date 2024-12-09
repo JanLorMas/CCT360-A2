@@ -1,0 +1,161 @@
+#jumbo {
+
+    background-image: url(../images/IMG_1066.jpg);
+    background-size: cover;
+    background-position: 60% 40%;
+    min-height: 500px;
+   
+   }
+#jumbo2 {
+
+    background-image: url(../images/IMG_0247.jpg);
+    background-size: cover;
+    background-position: 60% 40%;
+    min-height: 500px;
+    
+}
+#jumbo3 {
+
+    background-image: url(../images/IMG_1188.jpg);
+    background-size: cover;
+    background-position: 60% 40%;
+    min-height: 500px;
+    
+}
+
+/* Home carousel */
+.carousel-caption {
+    background: #00000066;
+    }
+.carousel-inner{
+    width: 100%;
+    height: 100%;
+}
+.carousel-item h5{
+    color: white;
+}
+.carousel-item p{
+    color: white;
+}
+
+/* Home Progress Bar */
+#bars  {
+    background-image:linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/poll.jpg);
+    background-size: cover;
+    background-position: 50% 60%;
+}
+#bars .row {
+    background-color: #ffffff;
+}
+#bars .progress {
+    height: 100%;
+}
+
+/* Home Card */
+.card:hover{
+    opacity: 0.4;
+}
+
+/* Gallery tooltip */
+.astext {
+    background:none;
+    border:none;
+    margin:0;
+    padding:0;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.asContactForm {
+    background:none;
+    border:none;
+    margin:0;
+    padding:0;
+    cursor: pointer;
+    text-decoration: underline;
+    color: white;
+    text-decoration: dotted;
+    font-size: 2em;
+}
+
+/* Home Small Breakpoint */
+@media only screen and (max-width: 576px) {
+    /* For mobile phones: */
+    .card-img-top{
+        width: 100%;
+        height: auto;
+    }
+    #jumbo{
+        background-image: url(../images/blankColor.png);
+    }
+    #jumboText{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: start;
+        align-content: stretch;
+        justify-items: start;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    #jumboText h1{
+        color: white !important;
+        font-size: 3rem;
+    }
+    #jumboText p{
+        color: white !important;
+        font-size: 2rem;
+    }
+}
+
+/* Gallery Small Breakpoint */
+@media only screen and (max-width: 576px) {
+    /* For mobile phones: */
+    .videoHeader{
+        font-size: 1.17em;
+    }
+}
+
+/* Resume Small Breakpoint */
+@media only screen and (max-width: 576px) {
+    /* For mobile phones: */
+    #circularImage {
+      display: none;
+    }
+    #Education {
+        width: 100%;
+    }
+    .responsiveResume {
+        display: none;
+    }
+}
+/* Contact Small Breakpoint */
+@media only screen and (max-width: 576px) {
+    /* For mobile phones: */
+    #contactText{
+        background-color: rgba(0, 0, 0, 0.8);
+        text-align: center;
+    }
+    #jumbo2 {
+
+        background-image: url(../images/IMG_0247.jpg);
+        background-size: cover;
+        background-position: 80%;
+        min-height: 250px;
+        
+    }
+}
+/* Blog Small Breakpoint */
+@media only screen and (max-width: 576px) {
+    /* For mobile phones: */
+    #blogText{
+        background-color: rgba(0, 0, 0, 0.8);
+        text-align: center;
+    }
+    #jumbo3 {
+
+        background-image: url(../images/IMG_1188.jpg);
+        background-size: cover;
+        background-position: 80%;
+        min-height: 250px;
+        
+    }
+}
